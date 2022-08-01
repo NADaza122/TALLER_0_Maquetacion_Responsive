@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --azulclaro: #48D6ED;
+    --azuloscuro: rgb(51, 122, 183);
+    --azulnegro: #303342;
+    --negro: rgb(51, 51, 51);
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: rgb(21, 122, 138);
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, rgb(11, 56, 96) 80.34%);  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+
+
+/*NAVEGACION*/
+nav{ 
+    background-color: #000;
+    font-family: 'Marcellus', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+.imagen img{
+    height: 26rem;
+}
+
+.item{
+    padding: 1rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contendordescripcion{
+    background-color: #000;
+    padding: 10px 20px 30px 20px;
+    width: 50%;
+    height: 20%;
+}
+
+.descrpcion--img{
+    height: 19rem;
+    opacity: 2;
+    color: #fff;
+}
+
+.descripcion{
+    background: url('../img/edvin-johansson-rlwE8f8anOc-unsplash.jpg') no-repeat;   
+    background-size: cover;
+    align-items: flex-end;
+    padding: 9px; 
+    display:flex;
+    height: 78vh;
+}
+
+
+
+/*INFORMACION*/
+.contenedorg{
+    display: flex;
+}
+
+.contenedor1{
+    width: 780px;
+    background: none;
+    margin: 30px auto;
+    padding: 20px 20px;
+    box-shadow: none;
+    float: left;
+}
+  
+.contenedor2{
+    width: 48px;
+    background: none;
+    margin: 30px auto;
+    padding: 20px 20px;
+    box-shadow: none;
+    float: right;
+}
+  
+.contenedor2 img{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px; 
+}
+
+.info{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/*SERVICIOS*/
+.tituloservicios{
+    background-color: rgba(59, 59, 59, 0.507);
+    font-family: 'Marcellus', serif;
+    margin-top: 31px;
+}
+
+.box  i{
+    font-size: 36px;
+}
+
+.box  i, .box  p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.container-servicios{
+    background-image: url('../img/servicio.png');
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-size: cover;
+   
+}
+
+.tituloss{
+    color: #fff;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-weight: 401;
+}
+
+.box--blue{
+    background:rgb(11, 56, 96, 0.7) ;
+}
+
+.box--dark{
+    background:rgb(0, 0, 0, 0.7) ;
+}
+
+.box{
+    padding: 50px 10px 10px 10px;
+    text-align: center;
+    width: 251px;
+    height: 151px;
+    border-radius: 8px;
+}
+
+.cajass{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 31px;
+}
+
+/*UBICACION*/
+.title{
+    color: #000;
+    font-weight: 401;
+    margin-top: 31px;
+    font-family: 'Marcellus', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.telefono{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 201;
+    margin-top: 31px;
+    color: #000;
+    font-family: 'Marcellus', serif;
+}
+
+.map{
+    width: 93%;
+    margin: 3%;
+}
+
+.ubicacion{
+    font-size: 1.5rem;
+    font-family: 'Marcellus', serif;
+    font-weight: 201;
+    text-align: center;
+    color: #000;
+    margin-top: 31px;
+}
+
+/*OPINIONES USUARIOS*/
+.titleopiniones{
+    margin-top: 101px;
+    height: 46px;
+    background-color:rgb(11, 56, 96) ;
+    font-family: 'Marcellus', serif;
+}
+
+.opiniones{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-image: none;
+    background-size: cover;
+}
+
+.usuario{
+    font-family: 'Marcellus', serif;
+    font-weight: 401;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.cajas{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 51px;
+}
+
+.usua{
+    text-align: center;
+    width: 271px;
+    height: 181px;
+    align-content: space-around;
+    padding: 30px 10px 10px 10px;
+    border-radius:none;
+}
+
+.usua  p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.usuarios{
+    border-radius: 3px;
+    background:rgb(11, 56, 96) ;
+}
+
+.perfil{
+    align-content: center;
+    margin-right: 21px;
+    width: 209px;
+    border: none;
+    float: left; 
+}
+
+
+
+/*FINAL*/
+.direccion{
+    width: 201px;
+    align-items: center;
+}
+
+.fa-brands{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer{
+    justify-content: space-around;
+    background-color: #000;
+    display: flex;
+    color: #fff;
+}
+
+/*LOGUEO*/
+.cuerpologin{ 
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/paolo-nicolello-2gOxKj594nM-unsplash.jpg');
+}
+
+.encabezadol{
+    overflow: hidden;
+    position: relative;
+}
+
+.contenedorl{
+    border-radius: 5px;
+    width: 401px;
+    background:rgba(170, 174, 177, 0.808);
+    margin: 0% auto;
+    font-family: 'Marcellus', serif;
+    margin-top: 32px;
+    padding-bottom: 5%;
+}
+
+.btn-login{ 
+    border-radius: 3px;
+    background:#000;
+    width: 301px;
+    margin: 21px auto;
+    color: #fff;
+    font-size: 19px;
+    padding: 5px 15px;
+    font-family: 'Marcellus', serif;
+    font-weight: lighter;
+    display: block;
+}
+
+.formularioLogin a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.logol{
+    top: 11px;
+    left: 11px;
+    width: 121px;
+    position: absolute;
+}
+
+.formularioLogin{
+    color: #fff;
+    width: 301px;
+    margin: 0 auto;
+}
+
+.decoracionl{
+    background-image:url('../img/Group\ 200.svg');
+    width: 120%;
+    height: 141px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -40px;
+}
+
+.atributosLogin{
+    padding: 6px;
+    font-size: 16px;
+    color: #303342;
+    margin-bottom:20px;
+    width: 100%;
+    outline: none;
+    border:none;
+    border-radius: 2px;
+}
+
+/*FORMULARIO HUESPED*/
+.hoteliaicon{
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px; 
+}
+
+.bienvenida{
+    background-image: url('../img/yuliya-pankevich-oyxsG2Lh_uA-unsplash.jpg');
+    background-size: cover;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.navegabilidaddelleft{
+    align-items: center;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    background: rgba(11, 56, 96, 0.74);
+    display:flex;
+    flex-direction: column;
+}
+
+.regis{
+    font-family: 'Marcellus', serif;
+    font-weight: 401;
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+}
+
+.tituloleft{
+    margin-top: 15px;
+    text-align: center;
+    width: 101px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.ingresarform{
+    width: 100px;
+    height: 40px;
+    margin: 10px 150px;
+    border-radius: 3px;
+    font-family: 'Marcellus', serif;
+    background: #000;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 16px;
+    display: block;
+    width: 301px;
+    margin: 0px auto;
+}
+
+.registroh input[type="number"],.registroh input[type="text"],.registroh input[type="email"],.registroh input[type="password"],.registroh input[type="tel"], select{
+    font-size: 16px;
+    color: #818497;
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.terminoycondi{
+    margin:10px auto;
+    display:block;
+    width: 301px;
+}
+
+.formularioregistro{
+    width: 90%;
+    margin: 5% 8% 5% 5%;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 4px;
+}
+
+.atributosform{
+    padding: 11px;
+}
+
+.registroh{
+    margin: 10px 150px;
+    border-radius: 3px;
+    border: none;
+    display: grid;
+    margin: auto;
+    width: 500px;
+    grid-template-columns: 50% 50%;
+}
+
+/*MODAL TYC*/
+.modal-contenido{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    border-radius: 3px;
+}
+
+.terminosacept{
+    width: 100px;
+    height: 40px;
+    margin: 10px 150px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Marcellus', serif;
+    background: #000;
+    font-weight: lighter;
+    color:  #fff;
+    font-size: 18px;
+    padding: 6px 16px;
+    display: block;
+    width: 105px;
+    margin: 0px auto;
+     
+}
+
+.termiyserv{
+    text-decoration: none;
+    color: #000000;
+}
+
+.regreso{
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    color: #ffffff;
+}
+  
+.modal{
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.596);
+    align-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+}
+
+#miModal:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+.termiyserv{
+    text-decoration: none;
+    color: #000000;
+}
+.salirt{
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    color: #000000;
+}
+
+/*DASHBOARD*/
+.bievenidaperfil{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    background-color: var(--azulnegro);
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingresohuesped{
+    background: rgba(255, 255, 255, .5);
+    border-radius: 4px;
+    height: 92%;
+    width: 90%;
+    margin: 5% 8% 5% 5%;
+}
+
+.huespedd{
+    padding: 11px;
+}
+
+.huespeddatos{
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 500px;
+    border-radius: 3px;
+    margin: 10px 150px;
+    border: none;
+    display: grid;
+}
+
+
+.hotelialogo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding:20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #fff;
+    background-image: url(../img/Group\ 200.svg);
+    background-size: cover;
+}
+
+.bievenidaperfil a{
+    color:  #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    
+}
+
+.contenedorperfil{
+    grid-template-columns: 20% auto;
+    width: 100%;
+    background-size: 100% 100%;
+    display:grid;
+    background-repeat: no-repeat;
+    height: 90%;
+    background-image: url(../img/shop-slo-vhztm9QC0L0-unsplash.jpg);
+}
+
+
+.salirp{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #1c1e27;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.botoncamb{
+    background:rgb(41, 43, 44);
+    font-weight: lighter;
+    padding: 6px 16px;
+    display: block;
+    width: 150px;
+    color:  #fff;
+    font-size: 18px;
+    height: 60px;
+    margin: 10px 150px;
+    border-radius: 3px;
+    border: none;
+    margin: 0px auto;
+}
+
+.contenedorlateral{
+    background: rgba(11, 56, 96, 0.74);
+    display:flex;
+    width: 80%;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.huespbievenido{
+    color: #000;
+    font-weight: 401;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 1.5rem;
+}
+
+.huesped{
+    font-weight: lighter;
+    border-radius: 2px;
+    color:  #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.botonesacciones{
+    font-family: 'Marcellus', serif;
+    background: #000;
+    font-size: 18px;
+    padding: 6px 16px;
+    display: block;
+    height: 40px;
+    margin: 10px 150px;
+    border-radius: 3px;
+    border: none;
+    width: 160px;
+    margin: 0px auto;
+    font-weight: lighter;
+    color:  #fff;
+}
+
+.serviciosp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.botonesend{
+    border-radius: none;
+    border: none;
+    background:rgb(51, 122, 183);
+    font-weight: lighter;
+    height: 50px;
+    margin: 10px 150px;
+    display: block;
+    width: 150px;
+    margin: 0px auto;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 16px;
+}
+
+.huespeddatos input[type="text"],.huespeddatos input[type="password"],.huespeddatos input[type="number"],.huespeddatos input[type="tel"],.huespeddatos input[type="email"], select { 
+    border-radius: 5px;
+    border:none;
+    padding: 6px;
+    font-size: 16px;
+    color: #818497;
+    width: 230px;
+    outline: none;
+}
+
