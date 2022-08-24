@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos2.css">
+  <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
+  <title>Busqueda Habitaciones</title>
+</head>
+<body class="cuerpologinn">
+
+            <div class="contenedorll"><br>
+                
+            <form class="formularioLoginn" action="Dashboard.html" method="post">
+                <div class="busqueda">
+                    <button class="btn-busqu"><a class="opcionesl" href="#"> <i class="fa-solid fa-magnifying-glass"></i> Busqueda de Habitaciones</a></button> 
+                </div>
+
+                <div class="atributosloginn">
+                   <label> Entrada:</label>
+                   <input class="atributosLoginn" type="date">
+                   <label> Salida:</label>
+                   <input class="atributosLoginn" type="date">
+                   <label> Adultos:</label>
+                   <input class="atributosLoginn" type="number">
+                   <label> Niños:</label>
+                   <input class="atributosLoginn" type="number">
+                </div>
+
+                  <button class="btn-busqueda"><a class="opcionesl" href="#">Ver Habitaciones Disponibles</a></button>
+                 
+            </form>
+            </div>
+
+             <!--SERVICIOS-->
+             <div class="habidispo">
+ 
+               <div class="disponbileha">
+                 <div class="clo1">
+                    <div class="boxes boxes--blue">
+                     <img src="img/habit1.jpg" class="reservashabi">
+                     <h3>$128.000</h3>
+                     <button class="btnr1">Reservar</button>
+                       <div class="containermodal">
+                        <a onclick="window.modal1.showModal();"><i class="fa-solid fa-plus"></i> <br> Ver mas</a>
+                     </div>
+                        <dialog id="modal1">
+                            <a class="salirmodal" onclick="window.modal1.close();"><i class="fa-solid fa-x"></i></a>
+                        <h1>Habitaciones Dobles</h1>
+                        <div class="slider-container">  
+                           <img
+                             class="slider-item"
+                             src="img/slider1img.jpg"
+                           />
+                           <img
+                             class="slider-item"
+                             src="img/slider2img.jpg"
+                           />
+                           <img
+                             class="slider-item"
+                             src="img/slider3img.jpg"
+                           />
+                         </div>  
+                          <br>
+
+                          <p>Las habitaciones Dobles de Hotelia Bogota son amplias, con 
+                           27m², y estan pensadas para asegurar el mejor descanso durante 
+                           una estadia en la capital Colombiana. Con cama de 140m, estas 
+                           habitaciones son una buena prpuesta para parejas pues estan
+                           pensadas para alojar a 1 o 2 personas con la maxima comodidad.
+                          </p>
+                          <br>
+                          <br>
+
+                     
+                           <ul class="social-icons" id="l1">
+                              <h3 class="recursoshabi">Habitacion:</h3>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-person-swimming"></i></a> Vista a la piscina</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-tv"></i> </a> Canales de pago por vision</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-phone"></i> </a> Telefono</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-tower-broadcast"></i> </a> Canales por cable</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-desktop"></i> </a> Televsion de pantalla plana</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-wind"></i> </a> Aire acondicionado</li>
+                            </ul>
+
+                            <ul class="social-icons" id="l2">
+                              <h3 class="recursoshabi">Baño:</h3>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-shower"></i></a> Ducha</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-broom"></i> </a> Articulos de aseo gratuitos</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-toilet"></i> </a> Baño privado</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-bath"></i> </a> Ducha</li>
+                              <li class="icons"><a href="" class="social-icon"> <i class="fa-solid fa-toilet-paper"></i> </a> Toallas</li>
+                            </ul>     
+                      </dialog>
+                      </div>
+                      
+                    <div class="boxes boxes--dark">
+                        <img src="img/habit2.jpg" class="reservashabi">
+                        <h3>$128.000</h3>
+                        <button class="btnr2">Reservar</button>
+                        <div class="containermodal">
+                        <a><i class="fa-solid fa-plus"></i> <br> Ver mas</a>
+                        </div>
+                    </div>
+                 </div>
+ 
+                 <div class="clo2">
+                    <div class="boxes boxes--blue">
+                        <img src="img/habit3.jpg" class="reservashabi">
+                        <h3>$128.000</h3>
+                        <button class="btnr1">Reservar</button>
+                        <div class="containermodal">
+                        <a><i class="fa-solid fa-plus"></i> <br> Ver mas</a>
+                        </div>
+                    </div>
+ 
+                    <div class="boxes boxes--dark">
+                        <img src="img/habit4.jpg" class="reservashabi">
+                        <h3>$128.000</h3>
+                        <button class="btnr2">Reservar</button>
+                        <div class="containermodal">
+                        <a><i class="fa-solid fa-plus"></i> <br> Ver mas</a>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+             </div>
+
+             
+</body>
+</html>
